@@ -1,37 +1,160 @@
 * {
     box-sizing: border-box;
 }
-.skip {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    height: 1px;
-    width: 1px;
-    text-align: left;
-    overflow: hidden;
+
+button.canvas {
+	background: linear-gradient(to bottom,#205c40 0%,#004525 100%);
+    border: 4px solid #B3A369;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
 }
 
-a.skip:active, 
-a.skip:focus, 
-a.skip:hover {
-    left: 0; 
-    top: 0;
-    width: auto; 
-    height: auto; 
-    overflow: visible; 
+button.rotc {
+	background-image: url(https://support.gunskins.com/hc/article_attachments/360034187291/pattern-gs-military-ocp.jpg);
+    border: 4px solid #242320;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
+}
+button.github {
+	background-image: url(https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png);
+    border: 4px solid #2f2ba1;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
 }
 
+button.sheets {
+	background: #149c53;
+    border: 4px solid #242320;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
+}
+
+button.docs {
+	background: #3194d6;
+    border: 4px solid #242320;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
+}
+
+button.slides {
+	background: #d6ad31;
+    border: 4px solid #242320;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
+}
+
+button.drive {
+	background: #1f10a1;
+    border: 4px solid #242320;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 12px;
+   	width: 500px;
+	height: 50px;
+}
+
+button.incognito{
+    background-color: #4d5791; 
+    border: none;
+    color: #4d5791;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	height: 50px;
+	width: 800px;
+	cursor: pointer;
+}
+iframe.search{
+	display: block;
+	overflow:hidden;
+	padding:0px;
+	width:500px;
+	height:40px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 body {
     font-size: 10px;
     font-family: Tahoma, Arial;
+	background: #bdbdbd;
 }
-
+div.menuspacer {
+	height: 50px;
+	width: 100%;
+	background-color: #4d5791;
+}
 div.menu {
     width: 100%;
     background-color: #4d5791;
-    height: 44px;
-    padding: 0 40px;
+    height: 250px;
+    padding: 0;
+	text-align: center;
+    margin: 0;
+	 color: #fff;
+    font-size: 16pt;
+  
 }
 
 div.menu ul,
@@ -58,13 +181,11 @@ div.menu ul li a:hover  {
 }
 
 div.hero {
-    height: 350px;
-    background-color: #b4c6f0;
-    background-image: url('/bg.png');
-    background-size: 400px;
+    height: 100px;
+    background:linear-gradient(to top, #bdbdbd 15%, #4d5791 100%);
     background-repeat: no-repeat;
     background-position: center bottom;
-    padding-top: 40px;
+    padding-top: 5px;
 }
 
 div.hero h1,
@@ -95,7 +216,7 @@ div.hero h2 {
 
 .bottom {
     height: 50px;
-    background-color: #b4c6f0;
+    background-color:linear-gradient(to bottom, #bdbdbd 0%, #4d5791 100%) ;
     padding: 40px;
 }
 
